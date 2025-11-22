@@ -1,1 +1,1 @@
-<h1>7 - Classes and Styles Examples</h1>
+<h1>7 - Classes and Styles</h1>

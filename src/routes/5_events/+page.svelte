@@ -1,1 +1,1 @@
-<h1>5 - Events Examples</h1>
+<h1>5 - Events</h1>

@@ -1,1 +1,1 @@
-<h1>3 - Props Examples</h1>
+<h1>3 - Props</h1>

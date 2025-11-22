@@ -1,1 +1,1 @@
-<h1>2 - Reactivity Examples</h1>
+<h1>2 - Reactivity</h1>

@@ -1,1 +1,1 @@
-<h1>9 - Transitions Examples</h1>
+<h1>9 - Transitions</h1>

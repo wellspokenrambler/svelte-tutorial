@@ -1,1 +1,1 @@
-<h1>6 - Bindings Examples</h1>
+<h1>6 - Bindings</h1>
