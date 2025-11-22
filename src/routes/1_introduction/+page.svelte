@@ -15,7 +15,7 @@
 <h1>1 - Introduction</h1>
 
 <h2>Your first component - adding data</h2>
-<p>Hello, {name.toLocaleUpperCase}!</p>
+<p>Hello, {name.toLocaleUpperCase()}!</p>
 
 <h2>Dynamic Attributes</h2>
 <img src={croutonSrc} alt={croutonAlt} width="50"/>
