@@ -108,10 +108,10 @@
 <h2>Transition Events</h2>
 {#if visible}
     <p transition:fly={{y:-200, duration: 2000}}
-       on:introstart={() => status = 'intro started'}
-       on:introend={() => status = 'intro ended'}
-       on:outrostart={() => status = 'outro started'}
-       on:outroend={() => status = 'outro ended'}
+       onintrostart={() => status = 'intro started'}
+       onintroend={() => status = 'intro ended'}
+       onoutrostart={() => status = 'outro started'}
+       onoutroend={() => status = 'outro ended'}
        class="mt-4 p-2 bg-gray-200 rounded-sm">
         This paragraph updates the status below when its transitions start and end.
     </p>
