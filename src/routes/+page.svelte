@@ -1,35 +1,104 @@
+<script>
+    const courses = [
+        {
+            title: 'Basic Svelte',
+            link: '/basic-svelte/',
+            topics: [
+                {
+                    title: 'Introduction',
+                    link: '1_introduction'
+                },
+                {
+                    title: 'Reactivity',
+                    link: '2_reactivity'
+                },
+                {
+                    title: 'Props',
+                    link: '3_props'
+                },
+                {
+                    title: 'Logic',
+                    link: '4_logic'
+                },
+                {
+                    title: 'Events',
+                    link: '5_events'
+                },
+                {
+                    title: 'Bindings',
+                    link: '6_bindings'
+                },
+                {
+                    title: 'Classes & Styles',
+                    link: '7_classes_styles'
+                },
+                {
+                    title: 'Actions',
+                    link: '8_actions'
+                },
+                {
+                    title: 'Attachments',
+                    link: '9_attachments'
+                },
+                {
+                    title: 'Transitions',
+                    link: '10_transitions'
+                }
+            ]
+        },
+        {
+            title: 'Advanced Svelte',
+            link: '/advanced-svelte/',
+            topics: [
+                {
+                    title: 'Advanced Reactivity',
+                    link: '1_advanced_reactivity'
+                },
+                {
+                    title: 'Reusing Content',
+                    link: '2_reusing_content'
+                },
+                {
+                    title: 'Motion',
+                    link: '3_motion'
+                },
+                {
+                    title: 'Advanced Bindings',
+                    link: '4_advanced_bindings'
+                },
+                {
+                    title: 'Advanced Transitions',
+                    link: '5_advanced_transitions'
+                },
+                {
+                    title: 'Context API',
+                    link: '6_context_api'
+                },
+                {
+                    title: 'Special Elements',
+                    link: '7_special_elements'
+                },
+                {
+                    title: '<script module>',
+                    link: '8_script_module'
+                }
+            ]
+        },
+    ];
+</script>
+
 
 <h1>Isabelle May - Basic Svelte Tutorial Work Examples:</h1>
 <div class="flex w-full h-full flex-wrap">
-    <div class="w-full md:w-1/2 lg:w-1/4">
-        <h2>Basic Svelte</h2>
-        <ol>
-            <li><a href="/basic-svelte/1_introduction">Introduction</a></li>
-            <li><a href="/basic-svelte/2_reactivity">Reactivity</a></li>
-            <li><a href="/basic-svelte/3_props">Props</a></li>
-            <li><a href="/basic-svelte/4_logic">Logic</a></li>
-            <li><a href="/basic-svelte/5_events">Events</a></li>
-            <li><a href="/basic-svelte/6_bindings">Bindings</a></li>
-            <li><a href="/basic-svelte/7_classes_styles">Classes & Styles</a></li>
-            <li><a href="/basic-svelte/8_actions">Actions</a></li>
-            <li><a href="/basic-svelte/9_attachments">Attachments</a></li>
-            <li><a href="/basic-svelte/10_transitions">Transitions</a></li>
-        </ol>
-    </div>
-    <div class="w-full md:w-1/2 lg:w-1/4">
-        <h2>Advanced Svelte</h2>
-    </div>
-
-    <div class="w-full md:w-1/2 lg:w-1/4">
-        <h2>Basic Sveltekit</h2>
-    </div>
-
-    <div class="w-full md:w-1/2 lg:w-1/4">
-        <h2>Advanced Sveltekit</h2>
-    </div>
-
-    <div class="w-full">
-        <h2>Other Examples and Challenges</h2>
-    </div>
+    {#each courses as course}
+        <div class="w-full md:w-1/2 lg:w-1/4 mb-4">
+            <h2>{course.title}</h2>
+            <ol>
+                {#each course.topics as topic}
+                    <li><a href="{course.link}{topic.link}" aria-label="Go to {topic.title} page.">{topic.title}</a></li>
+                {/each}
+            </ol>
+        </div>
+    {/each}
 </div>
 
