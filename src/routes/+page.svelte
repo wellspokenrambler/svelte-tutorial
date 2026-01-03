@@ -12,7 +12,8 @@
             <li><a href="/basic-svelte/6_bindings">Bindings</a></li>
             <li><a href="/basic-svelte/7_classes_styles">Classes & Styles</a></li>
             <li><a href="/basic-svelte/8_actions">Actions</a></li>
-            <li><a href="/basic-svelte/9_transitions">Transitions</a></li>
+            <li><a href="/basic-svelte/9_attachments">Attachments</a></li>
+            <li><a href="/basic-svelte/10_transitions">Transitions</a></li>
         </ol>
     </div>
     <div class="w-full md:w-1/2 lg:w-1/4">
