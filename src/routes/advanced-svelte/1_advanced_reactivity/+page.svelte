@@ -121,7 +121,7 @@
     area: {box.area}px²
 </div>
 
-<h3>Reactive Built-ins</h3>
+<h2>Reactive Built-ins</h2>
 <p>The time is: {date.getHours()}:{pad(date.getMinutes())}:{pad(date.getSeconds())}</p>
 
 <h2>Stores</h2>
