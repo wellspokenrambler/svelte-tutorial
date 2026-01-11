@@ -1,0 +1,25 @@
+body {
+	background: url('stream banner 2024.png') no-repeat 50% 50% fixed;
+	background-size: cover;
+}
+
+h1, h2, h3, p, a, button, select {
+	font-family: 'Inconsolata';
+	color: white;
+}
+
+h1, h2, h3 {
+	text-shadow: 2px 2px rgb(219, 14, 93);
+}
+
+a, button {
+	text-shadow: 1px 1px rgb(219, 14, 93);
+}
+
+select, select option {
+	background: rgb(50, 5, 71);
+}
+
+.text-green-500 {
+	color: rgb(142, 223, 253) !important;
+}
