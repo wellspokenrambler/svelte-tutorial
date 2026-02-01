@@ -88,7 +88,18 @@
             title: 'Basic SvelteKit',
             link: '/iii-basic-sveltekit/',
             topics: [
-                
+                {
+                    title: 'Home/About Example',
+                    link: 'home-about-example'
+                },
+                {
+                    title: 'Blog Example',
+                    link: 'blog-example'
+                },
+                {
+                    title: 'Headers & Cookies Example',
+                    link: 'headers-cookies-example'
+                }
             ]
         }
     ];
