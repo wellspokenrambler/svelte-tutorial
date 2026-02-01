@@ -2,7 +2,7 @@
     const courses = [
         {
             title: 'Basic Svelte',
-            link: '/basic-svelte/',
+            link: '/i-basic-svelte/',
             topics: [
                 {
                     title: 'Introduction',
@@ -48,7 +48,7 @@
         },
         {
             title: 'Advanced Svelte',
-            link: '/advanced-svelte/',
+            link: '/ii-advanced-svelte/',
             topics: [
                 {
                     title: 'Advanced Reactivity',
@@ -84,6 +84,13 @@
                 }
             ]
         },
+        {
+            title: 'Basic SvelteKit',
+            link: '/iii-basic-sveltekit/',
+            topics: [
+                
+            ]
+        }
     ];
 </script>
 
