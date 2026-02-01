@@ -99,6 +99,10 @@
                 {
                     title: 'Headers & Cookies Example',
                     link: 'headers-cookies-example'
+                },
+                {
+                    title: 'Lib Message Example',
+                    link: 'lib-message-example'
                 }
             ]
         }
