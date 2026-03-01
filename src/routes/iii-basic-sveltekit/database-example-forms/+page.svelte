@@ -10,6 +10,7 @@
 </script>
 
 <h1>To-dos</h1>
+<h2>(with forms)</h2>
 <form id="add-a-to-do-form" 
         method="POST"
         action="?/create"
@@ -43,9 +44,6 @@
     {/if}
 </form>
 
-
-
-
 <ul>
     {#each data.todos.filter((todo) => !deleting.includes(todo.id)) as todo (todo.id)}
         <li in:fly={{ x: -20, duration: 200 }} out:fly={{ x: -20, duration: 200 }} animate:flip={{ duration: 300 }}>
@@ -58,7 +56,6 @@
                             deleting = deleting.filter((id) => id !== todo.id);
                         }
                     }}>
-                <input type="hidden" name="todoid" value={todo.id} />
                 {todo.description} {todo.done ? '✅' : '❌'}
                 <button type="submit">Delete</button>
             </form>

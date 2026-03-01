@@ -103,6 +103,14 @@
                 {
                     title: 'Lib Message Example',
                     link: 'lib-message-example'
+                },
+                {
+                    title: 'Database Example (with forms)',
+                    link: 'database-example-forms'
+                },
+                {
+                    title: 'Dice Roll Example',
+                    link: 'dice-roll-example'
                 }
             ]
         }
