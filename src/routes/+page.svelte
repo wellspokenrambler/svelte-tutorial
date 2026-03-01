@@ -2,7 +2,7 @@
     const courses = [
         {
             title: 'Basic Svelte',
-            link: '/basic-svelte/',
+            link: '/i-basic-svelte/',
             topics: [
                 {
                     title: 'Introduction',
@@ -48,7 +48,7 @@
         },
         {
             title: 'Advanced Svelte',
-            link: '/advanced-svelte/',
+            link: '/ii-advanced-svelte/',
             topics: [
                 {
                     title: 'Advanced Reactivity',
@@ -84,6 +84,44 @@
                 }
             ]
         },
+        {
+            title: 'Basic SvelteKit',
+            link: '/iii-basic-sveltekit/',
+            topics: [
+                {
+                    title: 'Home/About Example',
+                    link: 'home-about-example'
+                },
+                {
+                    title: 'Blog Example',
+                    link: 'blog-example'
+                },
+                {
+                    title: 'Headers & Cookies Example',
+                    link: 'headers-cookies-example'
+                },
+                {
+                    title: 'Lib Message Example',
+                    link: 'lib-message-example'
+                },
+                {
+                    title: 'Database Example (with forms)',
+                    link: 'database-example-forms'
+                },
+                {
+                    title: 'Dice Roll Example',
+                    link: 'dice-roll-example'
+                },
+                {
+                    title: 'Errors Example',
+                    link: 'errors-example'
+                },
+                {
+                    title: 'Redirects Example',
+                    link: 'redirects-example'
+                }
+            ]
+        }
     ];
 </script>
 
