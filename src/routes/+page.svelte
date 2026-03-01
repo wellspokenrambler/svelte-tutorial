@@ -111,6 +111,14 @@
                 {
                     title: 'Dice Roll Example',
                     link: 'dice-roll-example'
+                },
+                {
+                    title: 'Errors Example',
+                    link: 'errors-example'
+                },
+                {
+                    title: 'Redirects Example',
+                    link: 'redirects-example'
                 }
             ]
         }
