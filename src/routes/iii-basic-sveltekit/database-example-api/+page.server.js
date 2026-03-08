@@ -1,6 +1,6 @@
 import * as database from './server/database.js';
 
-export function load({ cookies }) {
+export async function load({ cookies }) {
 	let userid = cookies.get('userid');
 
 	if (!userid) {
@@ -9,6 +9,6 @@ export function load({ cookies }) {
 	}
 
 	return {
-		todos: database.getTodos(userid)
+		todos: await database.getTodos(userid)
 	};
 }

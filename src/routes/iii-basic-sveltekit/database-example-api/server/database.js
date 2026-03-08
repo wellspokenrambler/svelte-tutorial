@@ -6,12 +6,12 @@ async function delay() {
 
 const database = new Map();
 
-export function getTodos(userid) {
+export async function getTodos(userid) {
 	if (!database.has(userid)) {
-		createTodo({ userid, description: 'Learn about API routes' });
+		await createTodo({ userid, description: 'Learn about API routes' });
 	}
 
-	return Array.from(database.get(userid)?.values());
+	return Array.from(database.get(userid).values());
 }
 
 export async function createTodo({ userid, description }) {
