@@ -11,7 +11,7 @@ export function getTodos(userid) {
 		createTodo({ userid, description: 'Learn about API routes' });
 	}
 
-	return Array.from(database.get(userid).values());
+	return Array.from(database.get(userid)?.values());
 }
 
 export async function createTodo({ userid, description }) {
