@@ -28,7 +28,6 @@
             placeholder="write your todo here"
             name="description"
             autocomplete="off"
-            required
             disabled={creating}/>
     <button type="submit">Add</button>
     {#if creating}
@@ -56,6 +55,7 @@
                             deleting = deleting.filter((id) => id !== todo.id);
                         }
                     }}>
+                <input type="hidden" name="todoid" value={todo.id}/>
                 {todo.description} {todo.done ? '✅' : '❌'}
                 <button type="submit">Delete</button>
             </form>

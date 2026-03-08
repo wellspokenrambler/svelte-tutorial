@@ -109,6 +109,10 @@
                     link: 'database-example-forms'
                 },
                 {
+                    title: 'Database Example (with API routes)',
+                    link: 'database-example-api'
+                },
+                {
                     title: 'Dice Roll Example',
                     link: 'dice-roll-example'
                 },
