@@ -13,6 +13,7 @@
     <input
         type="text"
         autocomplete="off"
+        placeholder="write your todo here"
         onkeydown={async (e) => {
             if (e.key !== 'Enter') return;
             error = '';
