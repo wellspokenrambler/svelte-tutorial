@@ -16,15 +16,16 @@
 	courses.forEach((element, courseIndex) => {
 		element.topics.forEach((topic, topicIndex) => {
 			if (currentPage === `${element.link}${topic.link}`) {
-				previousPage = topicIndex > 0 ? `${element.link}${element.topics[topicIndex - 1].link}` : '';
-				console.log("prev page: " + previousPage);
+				if (topicIndex == 0 && courses[courseIndex-1]?.topics?.length > 0) {
+					previousPage = `${courses[courseIndex-1].link}${courses[courseIndex-1].topics[courses[courseIndex-1].topics.length - 1].link}`;
+				} else {
+					previousPage = topicIndex > 0 ? `${element.link}${element.topics[topicIndex - 1].link}` : '';
+				}
 				if (topicIndex == element.topics.length - 1 && courses[courseIndex+1]?.topics?.length > 0) {
 					nextPage = `${courses[courseIndex+1].link}${courses[courseIndex+1].topics[0].link}`;
-					console.log("next page: " + nextPage);
 				}
 				else {
 					nextPage = topicIndex < element.topics.length - 1 ? `${element.link}${element.topics[topicIndex + 1].link}` : '';
-					console.log("next page: " + nextPage);
 				}
 			}
 		});
