@@ -29,7 +29,7 @@
 
 <h2>The attach Tag</h2>
 <p>The whole page can be a canvas! (again.) If you need to, you can toggle the canvas using the button next to the home page link.</p>
-<button onclick={() => showCanvas = !showCanvas} class="absolute top-0 left-20 z-10">
+<button onclick={() => showCanvas = !showCanvas} class="absolute top-0 left-1/2 z-10">
     {showCanvas ? 'hide' : 'show'} canvas
 </button>
 <div class="container" style:display={showCanvas ? 'block' : 'none'}>
