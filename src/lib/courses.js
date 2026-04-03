@@ -132,6 +132,10 @@
                 {
                     title: 'Hooks Example',
                     link: 'hooks-example'
+                },
+                {
+                    title: 'Page Options Example',
+                    link: 'page-options-example'
                 }
             ]
         }
