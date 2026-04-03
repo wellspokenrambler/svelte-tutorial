@@ -124,5 +124,15 @@
                     link: 'redirects-example'
                 }
             ]
+        },
+        {
+            title: 'Advanced SvelteKit',
+            link: '/iv-advanced-sveltekit/',
+            topics: [
+                {
+                    title: 'Hooks Example',
+                    link: 'hooks-example'
+                }
+            ]
         }
     ];

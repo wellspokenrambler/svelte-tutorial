@@ -38,10 +38,10 @@
 <div class="absolute top-0 left-0 z-10">
 	<a href="/" class="p-1 border-2 border-green-500">Home</a>
 	{#if previousPage}
-		<a href={previousPage} class="p-1 border-2 border-green-500">Previous</a>
+		<a href={previousPage} class="p-1 border-2 border-blue-500">Previous</a>
 	{/if}
 	{#if nextPage}
-		<a href={nextPage} class="p-1 border-2 border-green-500">Next</a>
+		<a href={nextPage} class="p-1 border-2 border-red-500">Next</a>
 	{/if}
 </div>
 <p class="absolute bottom-0 right-0 p-4 text-sm text-gray-500">v.{version}</p>
