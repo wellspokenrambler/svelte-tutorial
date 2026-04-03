@@ -136,6 +136,10 @@
                 {
                     title: 'Page Options Example',
                     link: 'page-options-example'
+                },
+                {
+                    title: 'Link Options Example',
+                    link: 'link-options-example'
                 }
             ]
         }

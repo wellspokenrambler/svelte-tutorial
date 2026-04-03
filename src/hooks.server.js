@@ -14,8 +14,10 @@ export async function handleFetch({event, request, fetch}) {
 export function handleError({event, error}) {
     console.error('Error in hooks:', error.stack);
 
-    return {
-        message: "yeah yeah the time knife, we've all seen it",
-        code: "JEREMYBEARiMY"
-    };
+    if (event.url.pathname === '/iv-advanced-sveltekit/hooks-example/places/the-bad-place') {
+        return {
+            message: "yeah yeah the time knife, we've all seen it",
+            code: "JEREMYBEARiMY"
+        };
+    }
 }
