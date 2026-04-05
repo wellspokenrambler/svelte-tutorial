@@ -151,7 +151,7 @@
                 },
                 {
                     title: "Environment Variables",
-                    link: '6_environment_variables'
+                    link: '6_environment-variables'
                 }
             ]
         }

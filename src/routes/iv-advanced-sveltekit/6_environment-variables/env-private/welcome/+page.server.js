@@ -1,0 +1,14 @@
+import { redirect, error } from '@sveltejs/kit';
+
+export function load({ cookies }) {
+    if(!cookies.get('allowed')) {
+        error(403, 'Forbidden');
+    }
+};
+
+export const actions = {
+    default: ({ cookies }) => {
+        cookies.delete('allowed', {path: '/'});
+        redirect(303, '/iv-advanced-sveltekit/6_environment-variables/env-static-private');
+    }
+};
