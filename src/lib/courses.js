@@ -130,24 +130,28 @@
             link: '/iv-advanced-sveltekit/',
             topics: [
                 {
-                    title: 'Hooks Example',
-                    link: 'hooks-example'
+                    title: 'Hooks',
+                    link: '1_hooks'
                 },
                 {
-                    title: 'Page Options Example',
-                    link: 'page-options-example'
+                    title: 'Page Options',
+                    link: '2_page-options'
                 },
                 {
-                    title: 'Link Options Example',
-                    link: 'link-options-example'
+                    title: 'Link Options',
+                    link: '3_link-options'
                 },
                 {
-                    title: 'Advanced Routing Example',
-                    link: 'advanced-routing-example'
+                    title: 'Advanced Routing',
+                    link: '4_advanced-routing'
                 },
                 {
-                    title: 'Advanced Loading Example',
-                    link: 'advanced-loading-example'
+                    title: 'Advanced Loading',
+                    link: '5_advanced-loading'
+                },
+                {
+                    title: "Environment Variables",
+                    link: '6_environment_variables'
                 }
             ]
         }
