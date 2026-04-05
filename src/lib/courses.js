@@ -144,6 +144,10 @@
                 {
                     title: 'Advanced Routing Example',
                     link: 'advanced-routing-example'
+                },
+                {
+                    title: 'Advanced Loading Example',
+                    link: 'advanced-loading-example'
                 }
             ]
         }
