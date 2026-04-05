@@ -1,9 +1,9 @@
 <script>
-    import { PUBLIC_THEME_BACKGROUND_COLOR, PUBLIC_THEME_FOREGROUND_COLOR } from '$env/static/public';
+    import { env } from '$env/dynamic/public';
 </script>
 
-<div class="absolute inset-0 -z-1" style="background-color: {PUBLIC_THEME_BACKGROUND_COLOR}; color: {PUBLIC_THEME_FOREGROUND_COLOR};">
+<div class="absolute inset-0 -z-1" style="background-color: {env.PUBLIC_THEME_BACKGROUND_COLOR}; color: {env.PUBLIC_THEME_FOREGROUND_COLOR};">
     <h1 class="mt-4">Public Environment Variables</h1>
-    <p>Background Color: {PUBLIC_THEME_BACKGROUND_COLOR}</p>
-    <p>Foreground Color: {PUBLIC_THEME_FOREGROUND_COLOR}</p>
+    <p>Background Color: {env.PUBLIC_THEME_BACKGROUND_COLOR}</p>
+    <p>Foreground Color: {env.PUBLIC_THEME_FOREGROUND_COLOR}</p>
 </div>
