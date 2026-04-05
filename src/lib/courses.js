@@ -140,6 +140,10 @@
                 {
                     title: 'Link Options Example',
                     link: 'link-options-example'
+                },
+                {
+                    title: 'Advanced Routing Example',
+                    link: 'advanced-routing-example'
                 }
             ]
         }
