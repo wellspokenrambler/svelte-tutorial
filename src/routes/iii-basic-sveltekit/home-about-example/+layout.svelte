@@ -4,7 +4,7 @@
     let { children } = $props();
 </script>
 
-<nav class="absolute left-20 top-2">
+<nav class="absolute left-1/2 top-2">
     <a href="/iii-basic-sveltekit/home-about-example" 
             aria-current={page.url.pathname === '/iii-basic-sveltekit/home-about-example'}
         >

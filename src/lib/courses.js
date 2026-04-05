@@ -1,0 +1,158 @@
+   export default [
+        {
+            title: 'Basic Svelte',
+            link: '/i-basic-svelte/',
+            topics: [
+                {
+                    title: 'Introduction',
+                    link: '1_introduction'
+                },
+                {
+                    title: 'Reactivity',
+                    link: '2_reactivity'
+                },
+                {
+                    title: 'Props',
+                    link: '3_props'
+                },
+                {
+                    title: 'Logic',
+                    link: '4_logic'
+                },
+                {
+                    title: 'Events',
+                    link: '5_events'
+                },
+                {
+                    title: 'Bindings',
+                    link: '6_bindings'
+                },
+                {
+                    title: 'Classes & Styles',
+                    link: '7_classes_styles'
+                },
+                {
+                    title: 'Actions',
+                    link: '8_actions'
+                },
+                {
+                    title: 'Attachments',
+                    link: '9_attachments'
+                },
+                {
+                    title: 'Transitions',
+                    link: '10_transitions'
+                }
+            ]
+        },
+        {
+            title: 'Advanced Svelte',
+            link: '/ii-advanced-svelte/',
+            topics: [
+                {
+                    title: 'Advanced Reactivity',
+                    link: '1_advanced_reactivity'
+                },
+                {
+                    title: 'Reusing Content',
+                    link: '2_reusing_content'
+                },
+                {
+                    title: 'Motion',
+                    link: '3_motion'
+                },
+                {
+                    title: 'Advanced Bindings',
+                    link: '4_advanced_bindings'
+                },
+                {
+                    title: 'Advanced Transitions',
+                    link: '5_advanced_transitions'
+                },
+                {
+                    title: 'Context API',
+                    link: '6_context_api'
+                },
+                {
+                    title: 'Special Elements',
+                    link: '7_special_elements'
+                },
+                {
+                    title: '<script module>',
+                    link: '8_script_module'
+                }
+            ]
+        },
+        {
+            title: 'Basic SvelteKit',
+            link: '/iii-basic-sveltekit/',
+            topics: [
+                {
+                    title: 'Home/About Example',
+                    link: 'home-about-example'
+                },
+                {
+                    title: 'Blog Example',
+                    link: 'blog-example'
+                },
+                {
+                    title: 'Headers & Cookies Example',
+                    link: 'headers-cookies-example'
+                },
+                {
+                    title: 'Lib Message Example',
+                    link: 'lib-message-example'
+                },
+                {
+                    title: 'Database Example (with forms)',
+                    link: 'database-example-forms'
+                },
+                {
+                    title: 'Database Example (with API routes)',
+                    link: 'database-example-api'
+                },
+                {
+                    title: 'Dice Roll Example',
+                    link: 'dice-roll-example'
+                },
+                {
+                    title: 'Errors Example',
+                    link: 'errors-example'
+                },
+                {
+                    title: 'Redirects Example',
+                    link: 'redirects-example'
+                }
+            ]
+        },
+        {
+            title: 'Advanced SvelteKit',
+            link: '/iv-advanced-sveltekit/',
+            topics: [
+                {
+                    title: 'Hooks',
+                    link: '1_hooks'
+                },
+                {
+                    title: 'Page Options',
+                    link: '2_page-options'
+                },
+                {
+                    title: 'Link Options',
+                    link: '3_link-options'
+                },
+                {
+                    title: 'Advanced Routing',
+                    link: '4_advanced-routing'
+                },
+                {
+                    title: 'Advanced Loading',
+                    link: '5_advanced-loading'
+                },
+                {
+                    title: "Environment Variables",
+                    link: '6_environment-variables'
+                }
+            ]
+        }
+    ];

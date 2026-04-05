@@ -1,0 +1,1 @@
+<p class="text-blue-500">i am a blue component</p>
