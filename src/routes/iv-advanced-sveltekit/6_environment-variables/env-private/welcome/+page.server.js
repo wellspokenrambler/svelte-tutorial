@@ -9,6 +9,6 @@ export function load({ cookies }) {
 export const actions = {
     default: ({ cookies }) => {
         cookies.delete('allowed', {path: '/'});
-        redirect(303, '/iv-advanced-sveltekit/6_environment-variables/env-static-private');
+        redirect(303, '/iv-advanced-sveltekit/6_environment-variables/env-private');
     }
 };
